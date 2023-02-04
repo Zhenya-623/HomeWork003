@@ -88,7 +88,7 @@ list_5 = ['k', 'ж', 'з', 'х', 'ц', 'ч']
 list_8 = ['j', 'x', 'ш', 'э', 'ю']
 list_10 = ['q', 'z', 'ф', 'щ', 'ъ']
 dictionary = {1: list_1, 2: list_2, 3: list_3, 4: list_4, 5: list_5, 8: list_8, 10: list_10}
-n = str(input('введите слово: '))
+n = str.lower(input('введите слово: '))
 print(n)
 count = 0
 for i in n:
